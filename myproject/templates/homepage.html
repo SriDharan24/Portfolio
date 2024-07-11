@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>P</span>orfolio</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="/about">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="#" class="btn-talk">Let's Talk</a>
+    </header>
+    <section class="home">
+        <div class="content">
+            <h2>Hi, I'm <span>Sridharan.S</span></h2>
+            <h4>Web Developer</h4>
+            <p>I aim to continuously learn and grow,contributing to cutting-edge tecnology and pushing the boundries of projects.
+              My objective is to drive meaningfull change and achieve excellency in my field </p>
+            <div class="btn-group">
+                <a href="#">See Skills</a>
+                <a href="#">See Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/SriDharan24"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

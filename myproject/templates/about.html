@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/about.css'%}">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>P</span>ortfolio</h2>
+        <nav class="navigation">
+            <a href="/homepage">Home</a>
+            <a href="/about">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="content">
+            <h2><span>About Me</span></h2>
+            
+            <p>I am <span>Sridharan.S</span> and I'am currently pursuing B.E degree in Computer Science and engineering.
+                Specializing in the <span>Web Developement</span>. I'm particularly skilled in project management,problem-soving and communication.I'am passionate about web developement and I'm exited about opportunities that allows me to achieve in that field
+                . I aim to continuously learn and grow,contributing to cutting-edge tecnology and pushing the boundries of projects.
+              My objective is to drive meaningfull change and achieve excellency in my field.</p>
+        </div>
+        <div class="btn">
+            <a href="#">Download CV</a>
+
+        </div>
+    </section>
+</body>
+</html>

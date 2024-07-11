@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 2em;
+    color: white;
+    cursor: default;
+}
+.logo span {
+    color:aqua;
+}
+.navigation {
+    margin-left: -300px;
+}
+.navigation a {
+    font-size: 1.1em;
+    color:white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover {
+    color:aqua;
+    transform: translateY(-5px);
+}
+body{
+    background-color: black;
+}
+
+
+
+.content {
+   
+    color: white;
+}
+.content h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 8rem;
+
+}
+.content h2 span {
+    color:aqua;
+}
+.content p{
+    text-align: justify;
+    padding:50px 200px;
+    justify-content:center;
+    
+}
+.content p span{
+    color: aqua;
+}
+.btn a{
+    border: 2px solid aqua;
+    border-radius:  10px ;
+    padding: 10px 30px;
+    background-color:black;
+    color:aqua;
+    text-decoration: none;
+    font-weight:600;
+}
+.btn a:hover{
+    color: black;
+    background-color: aqua;
+    
+}
+.btn{
+    
+    text-align: center;
+}
+
+
+
+
+
